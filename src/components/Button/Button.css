@@ -1,0 +1,87 @@
+:root {
+    --primary: #4154f1;
+    --danger: #ff6768;
+    --success: #18d26e;
+    --warning: #ffcc00;
+    --white: #fff;
+    --dark: #000000;
+}
+
+.btn-btn {
+    font-family: "Roboto", sans-serif;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+
+.btn-btn:hover {
+    transform: translateY(-3px);
+    font-family: "Roboto", sans-serif;
+    transition: transform 0.3s ease;
+}
+
+.btn-blue {
+    border: none;
+    background-color: var(--primary);
+    color: var(--white);
+    box-shadow: 0px 5px 30px rgb(65 84 241 / 40%);
+}
+
+.btn-green {
+    border: none;
+    background-color: var(--success);
+    color: var(--white);
+    box-shadow: 0px 2px 15px rgb(22 223 84 / 40%);
+}
+
+.btn-yellow {
+    border: none;
+    background-color: var(--warning);
+    color: var(--white);
+    box-shadow: 0px 2px 15px rgb(223 208 22 / 40%);
+}
+
+.btn-red {
+    border: none;
+    background-color: var(--danger);
+    color: var(--white);
+    box-shadow: 0px 2px 15px rgb(255 103 104 / 40%);
+}
+
+.btn-red-btn-outline {
+    border: 2px solid var(--primary);
+    background-color: transparent;
+    color: var(--primary);
+}
+
+.btn-green-btn-outline {
+    border: 2px solid var(--success);
+    background-color: transparent;
+    color: var(--success);
+}
+
+.btn-yellow-btn-outline {
+    border: 2px solid var(--warning);
+    background-color: transparent;
+    color: var(--warning);
+}
+
+.btn-red-btn-outline {
+    border: 2px solid var(--danger);
+    background-color: transparent;
+    color: var(--danger);
+}
+
+.btn-medium {
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.btn-large {
+    padding: 15px 30px;
+    font-size: 20px;
+}

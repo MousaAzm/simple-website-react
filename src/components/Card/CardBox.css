@@ -1,0 +1,69 @@
+:root {
+    --lightBlue: #2db6fa;
+    --red: #e9222c;
+    --green: #08da4e;
+    --orange: #f68c09;
+    --pink: #f51f9c;
+    --purple: #b50edf;
+}
+
+.service-box {
+    box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+    height: 100%;
+    padding: 20px 15px;
+    text-align: center;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+.service-box:hover {
+   color: #fff;
+}
+
+.box-blue {
+    border-bottom: 3px solid var(--lightBlue);
+}
+
+.box-blue:hover {
+    background: var(--lightBlue);
+}
+
+.box-orange {
+    border-bottom: 3px solid var(--orange);
+}
+
+.box-orange:hover {
+    background: var(--orange);
+}
+
+.box-green {
+    border-bottom: 3px solid var(--green);
+}
+
+.box-green:hover {
+    background: var(--green);
+}
+
+.box-red {
+    border-bottom: 3px solid var(--red);
+}
+
+.box-red:hover {
+    background: var(--red);
+}
+
+.box-purple {
+    border-bottom: 3px solid var(--purple);
+}
+
+.box-purple:hover {
+    background: var(--purple);
+}
+
+.box-pink {
+    border-bottom: 3px solid var(--pink);
+}
+
+.box-pink:hover {
+    background: var(--pink);
+}
